@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Moradas_API</name>
+    </assembly>
+    <members>
+        <member name="M:Moradas_API.Controllers.AuthController.Register(Moradas_API.Models.UserDto)">
+            <summary>
+            Este método serve para o registo de um utilizador.
+            </summary>
+        </member>
+        <member name="M:Moradas_API.Controllers.AuthController.Login(Moradas_API.Models.UserDto)">
+            <summary>
+            Este método serve para fazer login de um utilizador já criado.
+            </summary>
+        </member>
+        <member name="M:Moradas_API.Controllers.MoradasController.GetMoradas">
+            <summary>
+            Este método serve para obter as moradas.
+            </summary>
+        </member>
+        <member name="M:Moradas_API.Controllers.MoradasController.GetMorada(System.Int32)">
+            <summary>
+            Este método serve para obter todas as moradas por ID.
+            </summary>
+            <param name="id">Identificador de morada</param>
+            <returns>Retorna um objeto do tipo Morada</returns>
+        </member>
+        <member name="M:Moradas_API.Controllers.MoradasController.PutMorada(System.Int32,Moradas_API.Models.Morada)">
+            <summary>
+            Este método serve para editar as moradas por ID.
+            </summary>
+            <param name="id">Identificador de morada</param>
+            <returns>Retorna um objeto do tipo Morada</returns>
+        </member>
+        <member name="M:Moradas_API.Controllers.MoradasController.PostMorada(Moradas_API.Models.Morada)">
+            <summary>
+            Este método serve para adicionar moradas.
+            </summary>
+        </member>
+        <member name="M:Moradas_API.Controllers.MoradasController.DeleteMorada(System.Int32)">
+            <summary>
+            Este método serve para apagar as moradas por ID.
+            </summary>
+            <param name="id">Identificador de morada</param>
+            <returns>Retorna um objeto do tipo Morada</returns>
+        </member>
+        <member name="T:Moradas_API.Migrations.createdatabase">
+            <inheritdoc />
+        </member>
+        <member name="M:Moradas_API.Migrations.createdatabase.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Moradas_API.Migrations.createdatabase.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Moradas_API.Migrations.createdatabase.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Moradas_API.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:Moradas_API.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Moradas_API.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Moradas_API.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

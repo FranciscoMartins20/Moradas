@@ -1,0 +1,158 @@
+/* Estilos para a barra lateral (sidebar) */
+.moradas {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .sidebar {
+    width: 200px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: top;
+  }
+  
+  /* Estilos para os botões na barra lateral */
+  .sidebar button {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    width: 300px; /* Largura fixa dos botões */
+    height: 40px; /* Altura fixa dos botões */
+    margin: 25px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centralizar conteúdo verticalmente */
+    transition: background-color 0.3s ease-in-out;
+
+  }
+  
+  /* Estilos para os botões ao passar o mouse (hover) */
+  .sidebar button:hover {
+    background-color: #444; 
+  }
+  
+  /* Estilos para os ícones dentro dos botões */
+  .sidebar button svg {
+    margin-right: 10px; 
+  }
+  
+  /* Estilos para o texto dentro dos botões */
+  .sidebar button span {
+    font-size: 20px;
+  }
+  
+  /* Estilo para o título da barra lateral */
+  .sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para o conteúdo principal (main-content) */
+  .main-content {
+    flex: 1;
+
+    flex-direction: column;
+   
+  }
+/* Estilos para o formulário */
+.form-grid {
+  
+  
+    gap: 10px; /* Espaço entre as colunas e linhas */
+  }
+  
+  /* Estilos para os grupos de campos */
+  .form-group {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para as labels */
+  .form-group label {
+    align-self: flex-start; 
+    margin: 0 auto; 
+  }
+  
+  /* Estilos para os inputs */
+  .form-group input {
+    width: 50%; 
+    margin: 0 auto; 
+  }
+
+  /* Estilo para o botão "Adicionar" */
+/* Estilos para a tabela */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para as células da tabela */
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .main-content {
+    margin-bottom: 20px;
+  }
+  
+
+.form-label {
+    align-items: center;
+    margin: 0 auto; 
+    display: grid;
+    flex-direction: column;
+    width: 15%;
+    align-self: flex-start; 
+    
+  }
+  
+/* Estilos para o botão de edição personalizado */
+.custom-edit-button {
+    background-color: #3b4044;
+    color: #fff; 
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    margin-right: 5px; 
+    cursor: pointer;
+  }
+  
+  
+  .custom-delete-button {
+    background-color: #dc3545; 
+    color: #fff; 
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+
+  .form-and-map-container {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .form-grid {
+    flex: 1; 
+    padding: 16px; 
+  }
+  
+  .google-map {
+    flex: 1;
+    margin-right: 30px; 
+  }
+   
+  .button-container button {
+    margin-right: 10px;
+  }
